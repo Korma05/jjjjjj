@@ -720,9 +720,6 @@ ul {
   flex: 1;
 }
 
-.last-projectc {
-  margin: 20px;
-}
 
 .last-projectc .responsive-table {
   overflow-x: auto;
@@ -774,6 +771,15 @@ ul {
 
 .last-projectc .responsive-table table tbody tr:hover {
   background-color: #faf7f7;
+}
+.last-projectc {
+  margin: 20px;
+}
+
+@media (max-width:767px) {
+  .last-projectc {
+    margin: 10px 5px;
+  }
 }
 
 /* end last Projects */
