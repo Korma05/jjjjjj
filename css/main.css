@@ -1670,6 +1670,7 @@ label .toggole-checkbox:checked+.toggole-switch::before {
     gap: 10px;
     margin-right: 10px;
     margin-left: 10px;
+    grid-template-columns: minmax(250px, 1fr);
   }
 }
 .plans .box .holo{
@@ -1725,12 +1726,6 @@ label .toggole-checkbox:checked+.toggole-switch::before {
   margin-top: 15px;
   padding: 7px 14px;
   font-size: 18px;
-}
-
-@media (max-width:767px) {
-  .plans .box {
-    max-width: 320px;
-  }
 }
 /* end Plans */
 /* 5.47.0 */
